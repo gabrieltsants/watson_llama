@@ -7,7 +7,22 @@
 </div>
 
 
+## To do
+* Create a log for all actions
+* Interactive mode - Continuous
+* Interactive mode - No history
+* Predict tokens mode
+* Installer by python
+* Personality mode (Installer or command? To decide)
+* Maybe commands to change env configs
 
+
+## Installers need: 
+* Check if already installed
+* Check if wants default llama path (inside the repo)
+* Choose model to download
+* Personality mode (To decide on the above to do item)
+* Advanced mode will ask tokens, tops and etc.
 
 gh-md-toc
 =========
