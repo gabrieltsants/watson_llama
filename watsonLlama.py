@@ -1,4 +1,4 @@
-from functions.functions import *
+from functions.bot import *
 from functions.cli import *
 from os import sys
 

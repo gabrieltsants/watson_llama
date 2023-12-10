@@ -36,11 +36,9 @@ def generate_llama_prompt(prompt, option, Tokens = 100):
         layers = getenv('GPU_LAYERS')
         gpu_layers = f"--n-gpu-layers = {(layers)} "
 
-    builder = (
+    prompt = (
         path.join(llama_cpp_dir)
-        + "main -m "
-        + llama_model
-        + " -p '"
+        + f"main -m  {(llama_model)} -p '"
         + getenv(option + '_TEXT_START').replace(r'\n', '\n')
         + prompt
         + getenv(option + '_TEXT_END').replace(r'\n', '\n')
@@ -52,7 +50,7 @@ def generate_llama_prompt(prompt, option, Tokens = 100):
         + gpu_layers
         + ' --log-disable'
     )
-    return builder
+    return prompt
 
 
 # Builder for instancing env variables and generating the prompt
