@@ -3,7 +3,7 @@ from .helpers import botPrint
 import argparse
 from os import getenv, get_terminal_size
 
-def showLogo():
+def showArt():
   terminal_size = get_terminal_size()
   
   if terminal_size.columns >= 38: 
@@ -30,6 +30,9 @@ def showLogo():
       """
     , 'White'))
 
+def showLogo():
+
+  showArt()
   fileName = argv[0]
   print("\n" + botPrint('V1.0.0', 'Grey'))
   print(botPrint('• Wiki Summary: ') + botPrint(f'python {(fileName)} -w "PHP"', 'Blue'))
