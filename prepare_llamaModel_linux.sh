@@ -23,6 +23,7 @@ then
     rm -rf 'llama.cpp';
     git clone $LLAMA_REPO;
     cd 'llama.cpp';
+    pip install -r requeriments.txt
     make;
     mkdir -p $LLAMA_MODEL_FOLDER;
     cd $LLAMA_MODEL_FOLDER;
