@@ -10,6 +10,7 @@
 </a> I recommend you take a look at it first, it's a great project!</strong></p>
 
 ## To do
+* Test the .sh installer e deletar o instalador .py
 * Create a log for all actions (history true or false globally)
 * Interactive mode 
 * Predict tokens mode
