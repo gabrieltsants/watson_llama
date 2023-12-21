@@ -10,8 +10,8 @@
 </a> I recommend you take a look at it first, it's a great project!</strong></p>
 
 ## To do
-* Test the .sh installer and delete the .py installer.
-* Add a model like WizardCoder for code commands, or make a multiple choice installer.
+* Test the shell installer.
+* Add a model like WizardCoder for code commands, or make the shell script a multiple choice installer.
 * Create a log for all actions (history true or false globally).
 * Interactive mode.
 * Predict tokens mode.
