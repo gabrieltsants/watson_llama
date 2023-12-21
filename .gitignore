@@ -2,6 +2,6 @@
 *.txt
 .env
 .env~
-./llama.cpp
+.llama.cpp/
 .vscode/
 __pycache__/

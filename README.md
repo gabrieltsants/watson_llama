@@ -10,11 +10,12 @@
 </a> I recommend you take a look at it first, it's a great project!</strong></p>
 
 ## To do
-* Test the .sh installer and delete the .py installer
-* Create a log for all actions (history true or false globally)
-* Interactive mode 
-* Predict tokens mode
-* Personality mode (Deciding whether it will be via parameter or one built into the assistant)
-* Maybe parameters to change some env configs
+* Test the .sh installer and delete the .py installer.
+* Add a model like WizardCoder for code commands, or make a multiple choice installer.
+* Create a log for all actions (history true or false globally).
+* Interactive mode.
+* Predict tokens mode.
+* Personality mode (Deciding whether it will be via parameter or one built into the assistant).
+* Maybe parameters to change some env configs.
 
 

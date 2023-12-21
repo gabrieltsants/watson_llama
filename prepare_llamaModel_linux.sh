@@ -23,10 +23,11 @@ then
     rm -rf 'llama.cpp';
     git clone $LLAMA_REPO;
     cd 'llama.cpp';
-    pip install -r requeriments.txt
+    pip install -r requirements.txt
     make;
+    cd "${COMPLETION_DIR}/llama.cpp";
     mkdir -p $LLAMA_MODEL_FOLDER;
-    cd $LLAMA_MODEL_FOLDER;
+    cd "${COMPLETION_DIR}/llama.cpp/$LLAMA_MODEL_FOLDER"
     wget "https://huggingface.co/huggyllama/${LLAMA_MODEL}/resolve/main/pytorch_model-00001-of-00002.bin";
     wget "https://huggingface.co/huggyllama/${LLAMA_MODEL}/resolve/main/pytorch_model-00002-of-00002.bin";
     wget "https://huggingface.co/huggyllama/${LLAMA_MODEL}/resolve/main/tokenizer.model";
