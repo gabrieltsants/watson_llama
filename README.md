@@ -5,15 +5,15 @@
     <img src="./gitResources/img/large_icon.png" width="200" style="border-radius: 100px;"/>
   </a>
 </p>
-<p >I really like the idea of a terminal assistant in an offline way. Now using llama this is possible! WatsonLlama It is a python script that can help you with questions, commands in the terminal and summaries on Wikipedia. You can use the default llama-7b model or use your preffered one.</p>
-
+<p >WatsonLlama is a python script that can help you with questions, commands in the terminal and summaries on Wikipedia. You can use the default llama-7b model or use your preffered one.</p>
+<p><strong>This project is based on <a href="https://github.com/adammpkins/llama-terminal-completion">llama-terminal-completion
+</a> I recommend you take a look at it first, it's a great project!</strong></p>
 
 ## To do
 * Create a log for all actions (history true or false globally)
 * Interactive mode 
 * Predict tokens mode
-* Installer in python
-* Personality mode (Installer or command? To decide)
-* Maybe commands to change env configs
+* Personality mode (Deciding whether it will be via parameter or one built into the assistant)
+* Maybe parameters to change some env configs
 
 
