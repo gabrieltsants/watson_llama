@@ -16,7 +16,6 @@
 ![Alt text](./gitResources/img/cli.png)
 
 ## To do
-* Test the shell installer.
 * Add a model like WizardCoder for code commands, or make the shell script a multiple choice installer.
 * Create a log for all actions (history true or false globally).
 * Interactive mode.
