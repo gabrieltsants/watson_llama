@@ -31,6 +31,7 @@ then
     wget "https://huggingface.co/huggyllama/${LLAMA_MODEL}/resolve/main/pytorch_model-00001-of-00002.bin";
     wget "https://huggingface.co/huggyllama/${LLAMA_MODEL}/resolve/main/pytorch_model-00002-of-00002.bin";
     wget "https://huggingface.co/huggyllama/${LLAMA_MODEL}/resolve/main/tokenizer.model";
+    wget "https://huggingface.co/huggyllama/${LLAMA_MODEL}/resolve/main/config.json";
     cd "${COMPLETION_DIR}/llama.cpp";
     python3 convert.py ./$LLAMA_MODEL_FOLDER --ctx 4096;
     ./quantize ./${LLAMA_MODEL_FOLDER}/ggml-model-f16.gguf ./${LLAMA_MODEL_FOLDER}/ggml-model-q4_0.gguf q4_0;
