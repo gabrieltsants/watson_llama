@@ -1,7 +1,3 @@
-<h3 style="color:orange" align="center">
-Update: This project has been merged into <a href="https://github.com/adammpkins/llama-terminal-completion">LlamaTerm
-</a> and there will be no more updates in this repo.</h3>
-
 # WatsonLlama
 
 <p align="center">
@@ -19,12 +15,8 @@ Update: This project has been merged into <a href="https://github.com/adammpkins
 
 ![Alt text](./gitResources/img/cli.png)
 
-## To do
-* Add a model like WizardCoder for code commands, or make the shell script a multiple choice installer.
-* Create a log for all actions (history true or false globally).
-* Interactive mode.
-* Predict tokens mode.
-* Personality mode (Deciding whether it will be via parameter or one built into the assistant).
-* Maybe parameters to change some env configs.
+<h3 style="color:orange" align="center">
+Update: This project has been merged into <a href="https://github.com/adammpkins/llama-terminal-completion">LlamaTerm
+</a> and there will be no more updates in this repo.</h3>
 
 
