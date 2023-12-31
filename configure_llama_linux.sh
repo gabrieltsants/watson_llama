@@ -36,6 +36,7 @@ then
     python3 convert.py ./$LLAMA_MODEL_FOLDER --ctx 4096;
     ./quantize ./${LLAMA_MODEL_FOLDER}/ggml-model-f16.gguf ./${LLAMA_MODEL_FOLDER}/ggml-model-q4_0.gguf q4_0;
     echo "Script $0 finished";
+    exit
 fi
 
 
