@@ -1,3 +1,7 @@
+<h3 style="color:orange" align="center">
+Update: This project has been merged into <a href="https://github.com/adammpkins/llama-terminal-completion">LlamaTerm
+</a> and there will be no more updates in this repo.</h3>
+
 # WatsonLlama
 
 <p align="center">
@@ -6,7 +10,7 @@
   </a>
 </p>
 <p >WatsonLlama is a python script that can help you with questions, commands in the terminal and summaries on Wikipedia. You can use the default llama-7b model or use your preffered one.</p>
-<p><strong>This project is based on <a href="https://github.com/adammpkins/llama-terminal-completion">llama-terminal-completion
+<p><strong>This project is based on <a href="https://github.com/adammpkins/llama-terminal-completion">LlamaTerm
 </a> I recommend you take a look at it first, it's a great project!</strong></p>
 
 ## Install
