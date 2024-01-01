@@ -14,9 +14,3 @@
 2. Run python `python watsonLlama.py` To see the availible options.
 
 ![Alt text](./gitResources/img/cli.png)
-
-<h3 style="color:orange" align="center">
-Update: This project has been merged into <a href="https://github.com/adammpkins/llama-terminal-completion">LlamaTerm
-</a> and there will be no more updates in this repo.</h3>
-
-
